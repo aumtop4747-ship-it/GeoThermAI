@@ -1,0 +1,46 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Node.js / React
+node_modules/
+web/dist/
+web/.vite/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.log
+
+# Backup
+backup_before_changes/
+
+# Research datasets: hold for review
+/derived/
+/tasks/
+/research_library/
+/web/public/data/
+
+# Scientific data requiring review
+*.pdf
+*.zip
+*.shp
+*.shx
+*.dbf
+*.gpkg
+*.tif
+*.tiff
+*.geojson
+*.hgt.gz
